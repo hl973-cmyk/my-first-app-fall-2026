@@ -21,14 +21,14 @@ def determine_winner(u, c):
         # print("USER WINS")
         return "USER WINS"
     elif u == "paper" and c == "rock":
-        # print("COMPUTER WINS") # OOPS
-        return "COMPUTER WINS"
+        # print("COMPUTER WINS")
+        return "USER WINS"
     elif u == "paper" and c == "paper":
         #print("TIE GAME")
         return "TIE GAME"
     elif u == "paper" and c == "scissors":
-        # print("USER WINS") # OOPS
-        return "USER WINS"
+        # print("USER WINS")
+        return "COMPUTER WINS"
     elif u == "scissors" and c == "rock":
         # print("COMPUTER WINS")
         return "COMPUTER WINS"
